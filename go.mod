@@ -1,3 +1,3 @@
-module pc3.co/greeting
+module github.com/threeiem/go-greeting
 
 go 1.15
