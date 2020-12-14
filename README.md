@@ -1,4 +1,4 @@
 go-greeting
 ===========
 
-Greating with Go. Sweet.
+Greeting with Go. Sweet.
