@@ -1,7 +1,7 @@
 Contributing
 ============
 
-By participating to this project, you agree to abide our [code of
+Aiding and contributing this project, you agree to abide our [code of
 conduct](/CODE_OF_CONDUCT.md).
 
 ## Setup your machine
