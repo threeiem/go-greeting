@@ -1,8 +1,19 @@
 version: 2.1
+
+executors:
+        go-build:
+                docker:
+                        - image: circleci/golang:1.15
+
+commands:
+        cache-go-mod:
+                steps:
+                        - save_cache:
+                                key: go-greeting-{{ checksum "go.sum" }}
+                                paths:
+                                        - /go/pkg/mod
 jobs:
   build:
-    docker:
-      - image: circleci/golang:1.15
     working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
       - checkout
